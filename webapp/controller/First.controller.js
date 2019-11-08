@@ -8,7 +8,7 @@ sap.ui.define([
 		onInit: function () {
 
 		},
-		onClickr: function () {
+		onClick: function () {
 			MessageBox.information(
 				"You have clicked the Custom Button.");
 		}
