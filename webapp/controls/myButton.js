@@ -19,7 +19,7 @@ sap.ui.define(["sap/ui/core/Control"],
 				methods: {},
 				aggregations: {},
 				events: {
-					"hover": {
+					"click": {
 
 					}
 				}
@@ -27,6 +27,7 @@ sap.ui.define(["sap/ui/core/Control"],
 			init: function () {},
 			renderer: function (oRm, oControl) {
 				oRm.write("<div");
+				oRm.writeControlData(oControl);
 				oRm.write("width", oControl.getProperty('width'));
 				oRm.write("height", oControl.getProperty('height'));
 				oRm.writeStyles();

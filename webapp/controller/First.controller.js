@@ -1,6 +1,6 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-	'sap/m/MessageBox'
+	"sap/m/MessageBox"
 ], function (Controller, MessageBox) {
 	"use strict";
 
@@ -8,10 +8,9 @@ sap.ui.define([
 		onInit: function () {
 
 		},
-		onHover: function () {
+		onClickr: function () {
 			MessageBox.information(
-				"You have clicked the Custom Button.", {}
-			);
+				"You have clicked the Custom Button.");
 		}
 	});
 });

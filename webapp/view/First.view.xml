@@ -2,7 +2,7 @@
 	<Page title="First Page">
 		<content>
 			<sodogan:myHeading></sodogan:myHeading>
-			<sodogan:myButton text="myCustom Button" width="200px" hover="onHover"></sodogan:myButton>
+			<sodogan:myButton text="myCustom Button" width="200px" click="onClick"></sodogan:myButton>
 			<Button text="Go to Next" type="Accept" press="onNext"></Button>
 		</content>
 	</Page>
