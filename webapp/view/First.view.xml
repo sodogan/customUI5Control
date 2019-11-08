@@ -1,0 +1,8 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sodogan="sodogan.custom.controls" controllerName="sodogan.custom.controller.First">
+	<Page title="First Page">
+		<content>
+			<sodogan:myHeading></sodogan:myHeading>
+			<Button text="Go to Next" type="Accept" press="onNext"></Button>
+		</content>
+	</Page>
+</mvc:View>
